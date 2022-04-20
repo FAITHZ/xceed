@@ -1,0 +1,23 @@
+.teams-board {
+
+
+    &__table {
+        @apply grid lg:grid-cols-5 md:grid-cols-3 sm:col-span-2 justify-center rounded-lg border-8 bg-white;
+        @apply lg:grid-rows-5 lg:grid-flow-col border-solid border-white shadow-xl;
+        perspective: 1px;
+
+    }
+
+    &__title {
+        @apply lg:col-span-5 md:col-span-3 sm:col-span-2 text-center bg-white text-xl md:text-3xl font-black text-gray-700 py-4 self-center;
+    }
+
+    &__grid {
+        @apply col-span-1 bg-white lg:p-[2rem] p-[1rem] self-center;
+        @apply text-gray-700 text-center lg:text-xl md:text-lg cursor-pointer font-black italic;
+
+        &:hover {
+            @apply bg-gray-300;
+        }
+    }
+}

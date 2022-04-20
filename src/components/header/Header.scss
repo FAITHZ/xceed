@@ -1,0 +1,12 @@
+header {
+    @apply grid grid-cols-12 h-[8rem] lg:px-[8rem] px-[2rem] items-center;
+
+    .logo {
+        @apply col-span-12 sm:col-span-3 justify-self-center sm:justify-self-start;
+    }
+
+    .title {
+        @apply col-span-12 sm:col-span-9 lg:col-span-5 justify-self-center lg:justify-self-center sm:justify-self-end;
+        @apply text-base lg:text-3xl sm:text-xl font-black text-gray-700;
+    }
+}
